@@ -1,0 +1,18 @@
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Python
+__pycache__/
+*.py[cod]
+*.env
+.env
+
+# Credentials — never commit secrets
+secrets.py
+config.py
+*.key
+
+# OS
+.DS_Store
+Thumbs.db
